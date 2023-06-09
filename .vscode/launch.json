@@ -8,6 +8,17 @@
             "mainClass": "com.projetofinal.projetofinal.ProjetofinalApplication",
             "projectName": "projetofinal",
             "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=52427 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=projetofinal"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoMvcApplication<projetofinal>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.mballem.curso.boot.DemoMvcApplication",
+            "projectName": "projetofinal",
+            "args": "",
             "envFile": "${workspaceFolder}/.env"
         }
     ]

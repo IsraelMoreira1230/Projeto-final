@@ -11,6 +11,7 @@
 	<groupId>com.projetofinal</groupId>
 	<artifactId>projetofinal</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
 	<name>projetofinal</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -73,11 +74,6 @@
 			<groupId>org.webjars.bower</groupId>
 			<artifactId>jquery-mask-plugin</artifactId>
 			<version>1.14.16</version>
-		</dependency>
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>8.0.30</version>
 		</dependency>
 		<dependency>
 			<groupId>nz.net.ultraq.thymeleaf</groupId>
